@@ -1,0 +1,132 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.aa {
+	display: flex;
+	background-color: red;
+	flex-direction: row;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+/*left side*/
+.bb {
+	position: relative;
+	text-align: center;
+	width: 50%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	flex-direction: column;
+	font-family: Arial, sans-serif;
+	color:  white;
+
+}
+h1 {
+	width: 75%;
+	font-size: 50px;
+	text-align: left;
+	line-height:  0.9;
+	margin-bottom: 20px;
+}
+.paragraph1 {
+	text-align: left;
+	font-size: 18px;
+	width: 75%;
+	line-height: 1.5;
+}
+/*right side*/
+.cc {
+	position: relative;
+	width: 50%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: sans-serif;
+
+}
+.cc1 {
+	width: 70%;
+	background-color: rebeccapurple;
+	height: 50px;
+	border-radius: 10px;
+	display: flex;
+	margin: 10px auto;
+	align-items: center;
+	justify-content: center;
+
+}
+.cc1-text {
+	color:  white;
+	font-weight: 300;
+	text-align: center;
+	padding: auto;
+}
+.cc2 {
+	background-color: white;
+	height: 400px;
+	padding-top: 10px;
+	width: 70%;
+	border-radius: 10px;
+}
+input[type=text] {
+	width: 80%;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin: 10px auto;
+
+}
+input[type=email] {
+	width: 80%;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin: 10px auto;
+}
+input[type=password] {
+	width: 80%;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin: 10px auto;
+}
+input[type=submit] {
+	width: 80%;
+	padding: 12px 20px;
+	display: inline-block;
+	border: none;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin: 10px auto;
+	cursor: pointer;
+	background-color: #4CAf50;
+	font-size: 0.9em;
+	color: white; 
+	font-weight: 300;
+	font-size: 20px;
+	font-family: arial;
+}
+input[type=submit]:hover {
+	background-color: darkorange;
+}
+.paragraph2 {
+	font:  5px;
+	font-family: sans-serif;
+	width: 80%;
+	font-weight: 100;
+
+}
+.paragraph2 a {
+	text-decoration: none;
+	color: red;
+}
